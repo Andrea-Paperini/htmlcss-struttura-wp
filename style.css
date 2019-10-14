@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.obi-italia.it/product/IT/1500x1500/277686_1.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+}
+.header_top {
+    height: 350px;
+    background-image: url("https://www.borgotramonte.it/wp-content/uploads/2019/04/Foto-strada-Manu-e1554797231699-1080x675.jpg");
+    border: white solid 10px;
+    margin: 10px;
+    position: relative;
+}
+h1 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    vertical-align: 150px;
+    top: 150px;
+    left: 300px;
+    transform: translate(50px, -50px);
+}
+h2 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    vertical-align: 150px;
+    top: 300px;
+    left: 200px;
+    transform: translate(50px, -50px);
+}
+.header_bottom {
+    margin: 10px;
+    height: 30px;
+    background-color: grey;
+}
+.home {
+    float: left;
+    margin-left: 100px;
+    color: white;
+}
+.lista {
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+.main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: white solid 10px;
+}
+main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+h4 {
+    font-size: 30px;
+    color: grey;
+}
+h6 {
+    font-size: 30px;
+    color: grey;
+}
+.sidebar {
+    width: 20%;
+    float: left;
+    font-size: 20px;
+}
+p {
+    color: green;
+    font-size: 20px;
+}
+.left {
+    height: 300px;
+    border: white solid 4px;
+}
+
+.right .widget {
+    height: 150px;
+    font-size: 20px;
+    border: white solid 4px;
+    margin: 10px;
+}
+
+.main_content {
+    width: 60%;
+    border: white solid 10px;
+    height: 200px;
+    float: left;
+    font-size: 20px;
+}
+
+footer {
+    width: 79vw;
+    height: 80px;
+    position: relative;
+}
+i  {
+    position: absolute;
+    left: 200px;
+    font-size: 50px;
+}
+i.2nth {
+    position: absolute;
+    left: 300px;
+    font-size: 50px;
+}
